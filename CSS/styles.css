@@ -16,10 +16,17 @@ nav a {
   color: #0a3641;
   text-decoration: none;
   padding: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
 }
+
 nav a:hover {
   text-decoration: underline;
 }
 nav ul {
   padding: 0px;
+}
+
+.active {
+  color: #ad422c;
 }
