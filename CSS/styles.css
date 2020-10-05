@@ -37,3 +37,7 @@ footer {
   display: inline;
   background-color: #cb9a21;
 }
+
+img {
+  max-width: 300px;
+}
