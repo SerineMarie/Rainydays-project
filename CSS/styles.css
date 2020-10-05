@@ -41,3 +41,9 @@ footer {
 img {
   max-width: 300px;
 }
+header {
+  background-image: url(images/rainydayslogo02.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 400px;
+}
