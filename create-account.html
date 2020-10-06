@@ -16,25 +16,37 @@
     </nav>
     <form action="form-success.php" method="GET">
       <fieldset>
-        <legend>Checkout</legend>
-        <label for="email"> Your email address</label>
+        <legend>Create an account</legend>
+        <label for="name"> First name</label>
+        <input type="text" name="name" id="name" class="form__input" required />
+        <label for="name"> Last name</label>
+        <input type="text" name="name" id="name" class="form__input" required />
+        <label for="email"> Your email adress</label>
         <input
           type="email"
           name="email"
-          id="email"
+          id="name"
           class="form__input"
           required
         />
-        <label for="address"> Your address</label>
+        <label for="password">Password</label>
         <input
-          type="address"
-          name="adress"
-          id="address"
+          type="text"
+          name="password"
+          id="password"
+          class="form__input"
+          required
+        />
+        <label for="password">Confirm password</label>
+        <input
+          type="text"
+          name="password"
+          id="password"
           class="form__input"
           required
         />
       </fieldset>
-      <input type="submit" value="Continue" />
+      <input type="submit" value="Create account" />
     </form>
   </body>
 </html>
