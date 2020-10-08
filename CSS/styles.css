@@ -53,10 +53,6 @@ footer {
   background-color: #cb9a21;
 }
 
-.logo {
-  max-width: 200px;
-}
-
 img {
   max-width: 300px;
 }
@@ -83,4 +79,7 @@ img {
   nav a {
     padding: 19% 75px;
   }
+}
+.logo {
+  max-width: 400px;
 }
