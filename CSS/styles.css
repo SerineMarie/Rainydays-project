@@ -18,7 +18,7 @@ nav li {
 nav a {
   color: #0a3641;
   text-decoration: none;
-  padding: 30px;
+  padding: 10px;
   font-weight: bold;
   text-transform: uppercase;
 }
@@ -44,4 +44,42 @@ img {
 
 .form__input {
   display: inline-block;
+}
+.logo {
+  max-width: 100px;
+}
+nav,
+#hamburger-menu {
+  display: none;
+}
+.hamburger-label {
+  float: left;
+  color: #000000;
+  padding: 10px;
+  font-size: 1.5em;
+  display: block;
+}
+#hamburger-menu:checked ~ nav {
+  display: block;
+}
+
+@media (min-width: 600px) {
+  .logo {
+    float: left;
+  }
+  nav {
+    display: inline-block;
+  }
+  .hamburger-label {
+    display: none;
+  }
+  ul {
+    display: flex;
+  }
+  li {
+    display: inline-block;
+  }
+  nav a {
+    padding: 19% 40px;
+  }
 }
