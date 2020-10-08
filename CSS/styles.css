@@ -41,6 +41,9 @@ footer {
 img {
   max-width: 300px;
 }
+.logo {
+  max-width: 200px;
+}
 .form__input {
   display: block;
 }
@@ -84,7 +87,4 @@ nav,
 }
 header {
   background-color: #cb9a21;
-}
-.logo {
-  max-width: 200px;
 }
