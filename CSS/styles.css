@@ -10,6 +10,21 @@ h3 {
   text-transform: uppercase;
   font-size: 32px;
 }
+nav,
+#hamburger-menu {
+  display: none;
+}
+.hamburger-label {
+  float: left;
+  color: #000000;
+  padding: 10px;
+  font-size: 1.5em;
+  display: block;
+}
+
+#hamburger-menu:checked ~ nav {
+  display: block;
+}
 
 nav li {
   display: inline-block;
@@ -38,9 +53,39 @@ footer {
   background-color: #cb9a21;
 }
 
+.logo02 {
+  max-width: 200px;
+}
+.logo01 {
+  max-width: 200px;
+}
 img {
   max-width: 300px;
 }
 .form__input {
   display: block;
+}
+
+@media (min-width: 600px) {
+  .logo01 {
+    float: left;
+  }
+  .logo02 {
+    float: left;
+  }
+  nav {
+    display: inline-block;
+  }
+  .hamburger-label {
+    display: none;
+  }
+  ul {
+    display: flex;
+  }
+  li {
+    display: inline-block;
+  }
+  nav a {
+    padding: 19% 75px;
+  }
 }
