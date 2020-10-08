@@ -46,14 +46,14 @@ img {
   display: inline-block;
 }
 .logo {
-  max-width: 100px;
+  max-width: 200px;
 }
 nav,
 #hamburger-menu {
   display: none;
 }
 .hamburger-label {
-  float: left;
+  float: right;
   color: #000000;
   padding: 10px;
   font-size: 1.5em;
@@ -68,7 +68,7 @@ nav,
     float: left;
   }
   nav {
-    display: inline-block;
+    display: inline;
   }
   .hamburger-label {
     display: none;
