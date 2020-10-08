@@ -5,54 +5,70 @@
     <meta name="viewport" content="width=device-width, initial-scale=1,0" />
     <link href="/CSS/styles.css" rel="stylesheet" />
   </head>
-  <a href="index.html"><img src="images/rainydayslogo02.png" alt="Logo" /></a>
-  <a href="index.html"><img src="images/rainydayslogo01.png" alt="Logo" /></a>
 
   <body>
-    <nav>
-      <ul>
-        <li><a href="index.html" class="active">Home</a></li>
-        <li><a href="women.html">Women</a></li>
-        <li><a href="man.html">Man</a></li>
-        <li><a href="children.html">Children</a></li>
-        <li><a href="login.html"> Log in</a></li>
-        <li><a href="create-account.html"> Creat an account</a></li>
-        <li><a href="checkout.html"> Checkout</a></li>
-      </ul>
-    </nav>
-    <form action="form-success.php" method="GET">
-      <fieldset>
-        <legend>Create an account</legend>
-        <label for="name"> First name</label>
-        <input type="text" name="name" id="name" class="form__input" required />
-        <label for="name"> Last name</label>
-        <input type="text" name="name" id="name" class="form__input" required />
-        <label for="email"> Your email address</label>
-        <input
-          type="email"
-          name="email"
-          id="name"
-          class="form__input"
-          required
-        />
-        <label for="password">Password</label>
-        <input
-          type="password"
-          name="password"
-          id="password"
-          class="form__input"
-          required
-        />
-        <label for="password">Confirm password</label>
-        <input
-          type="text"
-          name="password"
-          id="password"
-          class="form__input"
-          required
-        />
-      </fieldset>
-      <input type="submit" value="Create account" />
-    </form>
+    <header>
+      <a href="index.html"
+        ><img src="images/rainydayslogo.png" alt="Logo" class="logo"
+      /></a>
+
+      <nav>
+        <ul>
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="women.html">Women</a></li>
+          <li><a href="man.html">Man</a></li>
+          <li><a href="children.html">Children</a></li>
+          <li><a href="login.html"> Log in</a></li>
+          <li><a href="create-account.html"> Creat an account</a></li>
+          <li><a href="checkout.html"> Checkout</a></li>
+        </ul>
+      </nav>
+      <form action="form-success.php" method="GET">
+        <fieldset>
+          <legend>Create an account</legend>
+          <label for="name"> First name</label>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            class="form__input"
+            required
+          />
+          <label for="name"> Last name</label>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            class="form__input"
+            required
+          />
+          <label for="email"> Your email address</label>
+          <input
+            type="email"
+            name="email"
+            id="name"
+            class="form__input"
+            required
+          />
+          <label for="password">Password</label>
+          <input
+            type="password"
+            name="password"
+            id="password"
+            class="form__input"
+            required
+          />
+          <label for="password">Confirm password</label>
+          <input
+            type="text"
+            name="password"
+            id="password"
+            class="form__input"
+            required
+          />
+        </fieldset>
+        <input type="submit" value="Create account" />
+      </form>
+    </header>
   </body>
 </html>

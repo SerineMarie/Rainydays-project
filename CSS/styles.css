@@ -53,12 +53,10 @@ footer {
   background-color: #cb9a21;
 }
 
-.logo02 {
+.logo {
   max-width: 200px;
 }
-.logo01 {
-  max-width: 200px;
-}
+
 img {
   max-width: 300px;
 }
@@ -67,10 +65,7 @@ img {
 }
 
 @media (min-width: 600px) {
-  .logo01 {
-    float: left;
-  }
-  .logo02 {
+  .logo {
     float: left;
   }
   nav {
