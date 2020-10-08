@@ -41,9 +41,7 @@ footer {
 img {
   max-width: 300px;
 }
-.logo {
-  max-width: 200px;
-}
+
 .form__input {
   display: block;
 }
@@ -70,7 +68,7 @@ nav,
     float: left;
   }
   nav {
-    display: inline-block;
+    display: block;
   }
   .hamburger-label {
     display: none;
@@ -79,11 +77,14 @@ nav,
     display: flex;
   }
   li {
-    display: inline-block;
+    display: block;
   }
   nav a {
-    padding: 19% 40px;
+    padding: 19% 75;
   }
+}
+.logo {
+  max-width: 500px;
 }
 header {
   background-color: #cb9a21;
