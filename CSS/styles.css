@@ -1,6 +1,10 @@
 body {
   margin: 0%;
 }
+.logo {
+  width: 400px;
+}
+
 h1,
 h2,
 h3 {
@@ -19,10 +23,7 @@ h3 {
 h2 {
   background-color: #707070;
 }
-h1 {
-  display: inline-block;
-  text-align: center;
-}
+
 .name-price {
   font-family: Georgia, Times, serif;
   color: #0a3641;
