@@ -15,17 +15,17 @@ h3 {
 h1,
 h3 {
   background-color: #dddddd;
-  display: inline-block;
 }
 h2 {
   background-color: #707070;
+}
+h1 {
   display: inline-block;
 }
 .name-price {
   font-family: Georgia, Times, serif;
   color: #0a3641;
-  font-size: 15px;
-  padding: 5px;
+  font-size: 18px;
   margin: 0 auto;
 }
 .saleprice {
