@@ -10,6 +10,8 @@ h3 {
   text-transform: uppercase;
   font-size: 32px;
   padding: 10px;
+  width: 300px;
+  margin: 0 auto;
 }
 
 nav li {
@@ -49,6 +51,11 @@ footer {
 
 img {
   max-width: 300px;
+  margin: 0 auto;
+}
+.first-p {
+  background-color: #dddddd;
+  margin: 0 auto;
 }
 
 .form__input {
