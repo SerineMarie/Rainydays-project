@@ -16,6 +16,13 @@ h3 {
 h2 {
   background-color: #707070;
 }
+.name-price {
+  font-family: Georgia, Times, serif;
+  color: #0a3641;
+  font-size: 20px;
+  padding: 10px;
+  margin: 0 auto;
+}
 nav li {
   display: inline-block;
 }
