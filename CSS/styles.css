@@ -15,15 +15,24 @@ h3 {
 h1,
 h3 {
   background-color: #dddddd;
+  display: inline-block;
 }
 h2 {
   background-color: #707070;
+  display: inline-block;
 }
 .name-price {
   font-family: Georgia, Times, serif;
   color: #0a3641;
   font-size: 15px;
-  padding: 10px;
+  padding: 5px;
+  margin: 0 auto;
+}
+.saleprice {
+  font-family: Georgia, Times, serif;
+  color: #741009;
+  font-size: 8px;
+  padding: 5px;
   margin: 0 auto;
 }
 nav li {
@@ -58,6 +67,7 @@ footer {
   background-color: #cb9a21;
   margin: 0 auto;
   text-align: center;
+  display: inline-block;
 }
 
 div a {
