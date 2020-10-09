@@ -9,6 +9,7 @@ h3 {
   color: #741009;
   text-transform: uppercase;
   font-size: 32px;
+  padding: 10px;
 }
 
 nav li {
@@ -27,11 +28,19 @@ nav a:hover {
   text-decoration: underline;
 }
 nav ul {
-  padding: 0px;
+  padding: 10px;
+  display: block;
+  background-color: #cb9a21;
+}
+nav {
+  background-color: #cb9a21;
 }
 
 .active {
   color: #ad422c;
+}
+div {
+  background-color: #cb9a21;
 }
 footer {
   display: inline;
@@ -45,9 +54,7 @@ img {
 .form__input {
   display: inline-block;
 }
-.logo {
-  max-width: 200px;
-}
+
 nav,
 #hamburger-menu {
   display: none;
@@ -82,4 +89,7 @@ nav,
   nav a {
     padding: 19% 40px;
   }
+}
+.logo {
+  max-width: 200px;
 }
