@@ -1,7 +1,10 @@
 body {
   margin: 0%;
 }
-
+.logo {
+  display: block;
+  position: fixed;
+}
 h1,
 h2,
 h3 {
@@ -36,6 +39,7 @@ h2 {
 }
 nav li {
   display: inline-block;
+  text-align: center;
 }
 
 nav a {
@@ -44,6 +48,7 @@ nav a {
   padding: 10px;
   font-weight: bold;
   text-transform: uppercase;
+  display: inline-block;
 }
 
 nav a:hover {
@@ -53,9 +58,14 @@ nav ul {
   padding: 10px;
   display: block;
   background-color: #cb9a21;
+  padding-top: 50px;
 }
 nav {
   background-color: #cb9a21;
+  text-align: center;
+  position: fixed;
+  top: 20px;
+  width: 100%;
 }
 
 .active {
@@ -66,15 +76,21 @@ footer {
   background-color: #cb9a21;
   margin: 0 auto;
   text-align: center;
-  display: inline-block;
 }
 
 div a {
   background-color: #cb9a21;
   margin: 10px auto;
 }
-
-img {
+.sale {
+  max-width: 300px;
+  margin: 0 auto;
+}
+.newin {
+  max-width: 300px;
+  margin: 0 auto;
+}
+.inspo {
   max-width: 300px;
   margin: 0 auto;
 }
