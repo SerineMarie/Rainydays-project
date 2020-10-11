@@ -1,10 +1,7 @@
 body {
   margin: 0%;
 }
-.logo {
-  display: block;
-  position: fixed;
-}
+
 h1,
 h2,
 h3 {
@@ -24,6 +21,9 @@ h2 {
   background-color: #707070;
 }
 
+img {
+  max-width: 300px;
+}
 .name-price {
   font-family: Georgia, Times, serif;
   color: #0a3641;
@@ -112,6 +112,11 @@ nav,
 }
 #hamburger-menu:checked ~ nav {
   display: block;
+}
+
+.logo {
+  display: block;
+  position: fixed;
 }
 
 @media (min-width: 600px) {
