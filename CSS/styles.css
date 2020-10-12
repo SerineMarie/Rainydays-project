@@ -23,6 +23,7 @@ h2 {
 
 img {
   max-width: 300px;
+  margin: 0 auto;
 }
 .name-price {
   font-family: Georgia, Times, serif;
